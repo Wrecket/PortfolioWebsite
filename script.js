@@ -22,4 +22,4 @@ more.addEventListener("click", function(){
         hidden.classList.remove("animate__bounceInLeft", );
         hidden.classList.add("animate__bounceOutRight");   
     }
-})
+}) 
