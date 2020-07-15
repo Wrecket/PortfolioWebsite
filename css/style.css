@@ -19,8 +19,13 @@ body {
     display: block;
 }
 
+.undertitle{
+    
+}
+
 .top-banner {
-    height: 90px;;
+    height: 90px;
+    z-index: 1;
 }
 
 
@@ -29,22 +34,25 @@ body {
 }
 
 .container {
-    padding-top: 130px;
+    padding-top: 70px;
     text-align: center;
 }
 
 .main-title{
-    font-size: 8vh;
+    font-size: 5rem;
     font-weight: bold;
     color: orange;
     /* background-color: rgb(223, 222, 222); */
     margin-bottom: 0;
+    text-decoration: underline;
+    text-decoration-color: #292b2c;
 
 }
 
 .description {
-    font-size: large;
-    color: white;
+    font-size: 1.2em;
+    color: grey;
+    font-weight: bold;
 }
 
 .title-page-box {
@@ -98,12 +106,12 @@ p.bottom {
 
 .pic {
    
-    height: 500px;
+    height: 25vw;
     transition: all 1s;
 }
 
 .pic:hover {
-    height: 600px;
+    height: 30vw;
 }
 
 .orange {
@@ -112,6 +120,10 @@ p.bottom {
 
 .white {
     color: white;
+}
+
+.dark {
+    color: rgb(48, 51, 78)
 }
 
 .resume {
@@ -129,14 +141,84 @@ a:hover {
 }
 
 .skills {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: auto;
     background-color: white;
     display: inline-block;
+    border: orange solid 5px;
+    padding-bottom: 50px;
 }
 
 .skill-title {
     font-weight: bold;
     padding-top: 100px;
     font-size: 3em;
+    color: rgb(252, 164, 0);
+    }
+
+    svg {
+        transition: all 1s;
+    }
+
+    svg:hover {
+        height: 150px;
+        width: 150px;
+    }
+
+    .skill-desc {
+        font-weight: bold;
+        margin-top: 10px;
+        color: rgb(48, 51, 78);
+        text-decoration: underline;
+        text-decoration-color: orange;
+        
+    }
+
+    .more {
+        padding-top: 70px;
+        padding-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .extra {
+        color: orange;
+    }
+
+
+    /* media queries */
+
+    @media (max-width: 600px) {
+        .main-title{
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .description {
+            font-size: 0.7rem;
+            color: grey;
+            font-weight: bold;
+        }
+        .pic {
+   
+            height: 25vh;
+        }
+        .pic:hover {
+            height: 30vh;
+        }
+        .container {
+            padding-top: 10px;
+            text-align: center;
+        }
+        .intro {
+            margin-left: 5px;
+            margin-right: 5px;
+            padding-left: 5px;
+            padding#-right: 5px;
+        }
+        .padder-small {
+           
+        }
     }
