@@ -10,6 +10,7 @@ body {
     padding-bottom: 0;
     margin-left: 18px;;
     display: block;
+    font-family: 'Pacifico', cursive;
 }
 
 .underheader {
@@ -45,6 +46,7 @@ body {
     color: orange;
     margin-bottom: 0;
     text-decoration-color: #292b2c;
+    font-family: 'Permanent Marker', cursive;
 
 }
 
@@ -60,6 +62,22 @@ body {
 
 .padder-small {
     height: 40px;
+}
+
+.padder-xsml {
+    height: 20px;
+}
+
+.padder-med {
+    height: 40px;
+}
+
+.padder-lg {
+    height: 100px;
+}
+
+.padder {
+    height: 800px;
 }
 
 .decoration {
@@ -114,6 +132,7 @@ p.bottom {
 
 .orange {
     color: orange;
+    font-family: 'Pacifico', cursive;
 }
 
 .white {
@@ -176,6 +195,7 @@ a:hover {
         padding-top: 70px;
         padding-bottom: 20px;
         font-weight: bold;
+        color: orange;
     }
 
     .hidden {
@@ -186,10 +206,66 @@ a:hover {
         color: rgb(41, 43, 63)
     }
 
+    .projects-wrapper {
+        display: flex;
+        text-align: center;
+        justify-content: flex-end;
+        align-content: center;
+        height: 60vh;;
+        width: 90%;
+        background-color: orange;
+        text-align: center; 
+        margin-bottom: 100px;
+    }
 
+    .card {
+        margin: 50px 20px;
+        display: block;
+        height: auto;
+        min-height: 300px;
+        min-width: 20%;
+  
+    }
+
+    .proj {
+        height: auto;
+        justify-self: flex-end;
+        padding: 10px 10px 10px 50px;
+        
+    }
+
+    .card-btn {
+
+        bottom:10%;
+        right: 25%;
+    }
+
+    .card-btn2 {
+
+        bottom:20%;
+        right: 25%;
+    }
+    
+
+    
     /* media queries */
 
     @media (max-width: 700px) {
+        .padder{
+            height:2400px;
+        }
+
+        .projects-wrapper {
+            display: inline-block;
+            height: auto;
+        }
+
+        .proj {
+            align-self: flex-end;
+            margin: 0;
+            padding: 0 0 20px 170px;
+        }
+
         .main-title{
             font-size: 2rem;
             margin-bottom: 20px;
