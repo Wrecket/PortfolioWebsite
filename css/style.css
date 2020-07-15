@@ -10,7 +10,7 @@ body {
     padding-bottom: 0;
     margin-left: 18px;;
     display: block;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .underheader {
@@ -132,7 +132,7 @@ p.bottom {
 
 .orange {
     color: orange;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .white {
@@ -251,6 +251,10 @@ a:hover {
     /* media queries */
 
     @media (max-width: 700px) {
+        .skill-title {
+            padding-top: 0;
+            }
+        
         .padder{
             height:2400px;
         }
