@@ -7,7 +7,7 @@ window.addEventListener("scroll", function(){
     hinge.classList.add("animate__animated", "animate__bounce")
     setTimeout(function() {
         hinge.classList.remove("animate__animated", "animate__bounce")
-    }, 5000)
+    }, 10000)
 });
 
 more.addEventListener("click", function(){
