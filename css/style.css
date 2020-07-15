@@ -26,6 +26,7 @@ body {
 .top-banner {
     height: 90px;
     z-index: 1;
+    width: 100%
 }
 
 
