@@ -1,317 +1,327 @@
 body {
-    height: 100%;
-    position: relative;
-    padding-top: 100px;
+	height: 100%;
+	position: relative;
+	padding-top: 100px;
 }
 
 .nav-title {
-    color: orange;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    margin-left: 18px;;
-    display: block;
-    font-family: 'Bebas Neue', cursive;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-left: 18px;
+	display: block;
+	font-family: 'Permanent Marker', cursive;
+	text-shadow: 0 0 5px grey;
 }
 
 .underheader {
-    margin-left: 20px;
-    color: white;
-    margin-right: auto;
-    display: block;
+	margin-left: 20px;
+	color: white;
+	margin-right: auto;
+	display: block;
+	font-family: 'Permanent Marker', cursive;
+	text-shadow: 0 0 5px grey;
 }
 
-.undertitle{
-    
+.undertitle {
 }
 
 .top-banner {
-    height: 90px;
-    z-index: 1;
-    width: 100%
+	height: 90px;
+	z-index: 1;
+	width: 100%;
 }
-
 
 .x {
-    height: 20000px;
+	height: 20000px;
 }
 
-.container {
-    padding-top: 70px;
-    text-align: center;
+.containerx {
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 0;
+	padding-right: 0;
+	margin-right: 0;
+	margin-left: 0;
+	text-align: center;
 }
 
-.main-title{
-    font-size: 5rem;
-    font-weight: bold;
-    color: orange;
-    margin-bottom: 0;
-    text-decoration-color: #292b2c;
-    font-family: 'Permanent Marker', cursive;
+.main-title {
+	font-size: 5.1rem;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-right: 10px;
+	text-decoration-color: #292b2c;
+	font-family: 'Permanent Marker', cursive;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding-left: 20px;
+	text-shadow: 0 0 5px grey;
+}
 
+.main-container {
+	width: 100%;
+	/* height: 50vh; */
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
 }
 
 .description {
-    font-size: 1.2em;
-    color: grey;
-    font-weight: bold;
+	font-size: 1.2em;
+	color: grey;
+	font-weight: bold;
+}
+
+.title-text {
+	justify-content: flex-start;
+	position: relative;
 }
 
 .title-page-box {
-  opacity:  
+	width: 100%;
 }
 
 .padder-small {
-    height: 40px;
+	height: 40px;
 }
 
 .padder-xsml {
-    height: 20px;
+	height: 20px;
 }
 
 .padder-med {
-    height: 40px;
+	height: 40px;
 }
 
 .padder-lg {
-    height: 100px;
+	height: 100px;
 }
 
 .padder {
-    height: 800px;
+	height: 800px;
 }
 
 .decoration {
-    width: 100%;
-    height: 30px;
-    margin-bottom: 20px;
-
+	width: 100%;
+	height: 30px;
+	margin-bottom: 20px;
 }
 .decoration2 {
-    background-color: orange;
-    width: 100%;
-    height: 5px;
-
+	width: 100%;
+	height: 5px;
 }
 .decoration3 {
-    width: 100%;
-    height: 10px;
+	width: 100%;
+	height: 10px;
 }
 
 .greeting {
-    height: 800px;
-    width: 100%;
-    text-align: center;   
+	height: 800px;
+	width: 100%;
+	text-align: center;
 }
 
-h2.white{
-    padding-top: 50px;
-    padding-bottom: 30px;
+h2.white {
+	padding-top: 50px;
+	padding-bottom: 30px;
 }
 
-p.top{
-  margin: 0;  
-  font-size: large;
-  font-weight: bold;
+p.top {
+	margin: 0;
+	font-size: large;
+	font-weight: bold;
 }
 
 p.bottom {
-    margin-bottom: 20px;
-    font-size: large;
-    font-weight: bold;
+	margin-bottom: 20px;
+	font-size: large;
+	font-weight: bold;
 }
 
 .pic {
-   
-    height: 40vw;;
-    transition: all 1s;
+	height: 40vw;
+	transition: all 1s;
+	position: relative;
 }
 
 .pic:hover {
-    height: 42vw;
+	height: 42vw;
+}
+
+.blue {
+	color: rgb(112, 182, 223);
+}
+
+.blue-bg {
+	background-color: rgb(112, 182, 223);
 }
 
 .orange {
-    color: orange;
-    font-family: 'Bebas Neue', cursive;
+	color: orange;
+	font-family: 'Bebas Neue', cursive;
 }
 
 .white {
-    color: white;
+	color: white;
 }
 
 .dark {
-    color: rgb(48, 51, 78)
+	color: rgb(48, 51, 78);
 }
 
 .resume {
-    color: white;
-    font-weight: bold;
-}
-
-.btn-warning {
-    background-color: rgb(252, 165, 4);
+	color: white;
+	font-weight: bold;
 }
 
 a:hover {
-    text-decoration: none;
-    color: black;
+	text-decoration: none;
+	color: black;
 }
 
 .skills {
-    width: 70%;
-    height: auto;
-    background-color: white;
-    display: inline-block;
-    border: orange solid 5px;
-    padding-bottom: 50px;
+	width: 70%;
+	height: auto;
+	background-color: white;
+	display: inline-block;
+	border: rgb(112, 182, 223) solid 5px;
+	padding-bottom: 50px;
 }
 
 .skill-title {
-    font-weight: bold;
-    padding-top: 100px;
-    font-size: 3em;
-    color: rgb(252, 164, 0);
-    }
+	font-weight: bold;
+	padding-top: 100px;
+	font-size: 3em;
+}
 
-    svg {
-        transition: all 1s;
-    }
+svg {
+	transition: all 1s;
+}
 
-    svg:hover {
-        height: 150px;
-        width: 150px;
-    }
+svg:hover {
+	height: 150px;
+	width: 150px;
+}
 
-    .skill-desc {
-        font-weight: bold;
-        margin-top: 10px;
-        color: rgb(48, 51, 78);
-        text-decoration: underline;
-        text-decoration-color: orange;
-        
-    }
+.skill-desc {
+	font-weight: bold;
+	margin-top: 10px;
+	color: rgb(48, 51, 78);
+	text-decoration: underline;
+}
 
-    .more {
-        padding-top: 70px;
-        padding-bottom: 20px;
-        font-weight: bold;
-        color: orange;
-        font-family: 'Bebas Neue', cursive;
-    }
+.more {
+	padding-top: 70px;
+	padding-bottom: 20px;
+	font-weight: bold;
+	font-family: 'Bebas Neue', cursive;
+}
 
-    .hidden {
-        display: none;
-    }
+.hidden {
+	display: none;
+}
 
-    .extra {
-        color: rgb(41, 43, 63)
-    }
+.extra {
+	color: rgb(41, 43, 63);
+}
 
-    .projects-wrapper {
-        display: flex;
-        text-align: center;
-        justify-content: flex-end;
-        align-content: center;
-        height: 60vh;;
-        width: 90%;
-        background-color: orange;
-        text-align: center; 
-        margin-bottom: 100px;
-    }
+.projects-wrapper {
+	display: flex;
+	text-align: center;
+	justify-content: flex-end;
+	align-content: center;
+	height: 60vh;
+	width: 90%;
+	background-color: orange;
+	text-align: center;
+	margin-bottom: 100px;
+}
 
-    .card {
-        margin: 50px 20px;
-        display: block;
-        height: auto;
-        min-height: 300px;
-        min-width: 20%;
-  
-    }
+.card {
+	margin: 50px 20px;
+	display: block;
+	height: auto;
+	min-height: 300px;
+	min-width: 20%;
+}
 
-    .proj {
-        height: auto;
-        justify-self: flex-end;
-        padding: 10px 10px 10px 50px;
-        
-    }
+.proj {
+	height: auto;
+	justify-self: flex-end;
+	padding: 10px 10px 10px 50px;
+}
 
-    .card-btn {
+.card-btn {
+	bottom: 10%;
+	right: 25%;
+}
 
-        bottom:10%;
-        right: 25%;
-    }
+.card-btn2 {
+	bottom: 20%;
+	right: 25%;
+}
 
-    .card-btn2 {
+.graf {
+	font-family: 'Permanent Marker', cursive;
+	text-shadow: 0 0 5px grey;
+}
 
-        bottom:20%;
-        right: 25%;
-    }
-    
+/* media queries */
 
-    
-    /* media queries */
+@media (max-width: 700px) {
+	.skill-title {
+		padding-top: 0;
+	}
 
-    @media (max-width: 700px) {
-        .skill-title {
-            padding-top: 0;
-            }
-        
-        .padder{
-            height:2400px;
-        }
+	.padder {
+		height: 2400px;
+	}
 
-        .projects-wrapper {
-            display: inline-block;
-            height: auto;
-        }
+	.projects-wrapper {
+		display: inline-block;
+		height: auto;
+	}
 
-        .proj {
-            align-self: flex-end;
-            margin: 0;
-            padding: 0 0 20px 170px;
-        }
+	.proj {
+		align-self: flex-end;
+		margin: 0;
+		padding: 0 0 20px 170px;
+	}
 
-        .main-title{
-            font-size: 1.7rem;
-            margin-bottom: 20px;
-        }
-        .description {
-            font-size: 0.7rem;
-            color: grey;
-            font-weight: bold;
-        }
-        .pic {
-           width: 100%;
-           height: 100%;
-           margin: 0;
-           padding: 0;
-        }
-        .pic:hover {
-            height: 40vh;
-        }
-        .container {
-            padding-top: 10px;
-            padding-left: 0;
-            padding-right: 0;
-            text-align: center;
-        }
-        .intro {
-            margin-left: 5px;
-            margin-right: 5px;
-            padding-left: 5px;
-            padding-right: 5px;
-        }
-        .decoration3 {
-            margin-top: 0;
-        }
-    }
+	.description {
+		font-size: 0.7rem;
+		color: grey;
+		font-weight: bold;
+	}
+	.pic {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.pic:hover {
+		height: 40vh;
+	}
 
-    
-    @media (max-width: 550px) {
-        .main-title {
-            font-size: 1.5rem;
-        }
-        body {
-            padding-top: 90px;
-        }
-    }
+	.intro {
+		margin-left: 5px;
+		margin-right: 5px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.decoration3 {
+		margin-top: 0;
+	}
+}
+
+@media (max-width: 550px) {
+	.main-title {
+		font-size: 2rem;
+		padding-bottom: 10px;
+	}
+	body {
+		padding-top: 90px;
+	}
+}
