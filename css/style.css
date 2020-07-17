@@ -9,8 +9,6 @@ body {
 	padding-bottom: 0;
 	margin-left: 18px;
 	display: block;
-	font-family: 'Permanent Marker', cursive;
-	text-shadow: 0 0 5px grey;
 }
 
 .underheader {
@@ -18,8 +16,6 @@ body {
 	color: white;
 	margin-right: auto;
 	display: block;
-	font-family: 'Permanent Marker', cursive;
-	text-shadow: 0 0 5px grey;
 }
 
 .undertitle {
@@ -29,6 +25,7 @@ body {
 	height: 90px;
 	z-index: 1;
 	width: 100%;
+	/* background-color: lightgray; */
 }
 
 .x {
@@ -46,18 +43,16 @@ body {
 }
 
 .main-title {
-	font-size: 5.1rem;
+	font-size: 7.1rem;
 	font-weight: bold;
 	margin-bottom: 0;
 	margin-right: 10px;
 	text-decoration-color: #292b2c;
-	font-family: 'Permanent Marker', cursive;
 	display: inline-block;
 	position: absolute;
 	bottom: 0;
-	left: 0;
+	right: 0;
 	padding-left: 20px;
-	text-shadow: 0 0 5px grey;
 }
 
 .main-container {
@@ -194,6 +189,7 @@ a:hover {
 	font-weight: bold;
 	padding-top: 100px;
 	font-size: 3em;
+	padding: 50px 0 50px 0;
 }
 
 svg {
@@ -216,7 +212,6 @@ svg:hover {
 	padding-top: 70px;
 	padding-bottom: 20px;
 	font-weight: bold;
-	font-family: 'Bebas Neue', cursive;
 }
 
 .hidden {
@@ -228,15 +223,30 @@ svg:hover {
 }
 
 .projects-wrapper {
-	display: flex;
+	height: 1000px;
 	text-align: center;
-	justify-content: flex-end;
-	align-content: center;
-	height: 60vh;
-	width: 90%;
-	background-color: orange;
-	text-align: center;
-	margin-bottom: 100px;
+}
+
+.projects-inner {
+	height: 100%;
+	width: 70%;
+	border: 5px solid rgb(112, 182, 223);
+	display: inline-block;
+}
+
+.proj-header {
+	padding: 50px 0 50px 0;
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.img-box {
+	height: 60%;
+	border: 5px solid rgb(112, 182, 223);
+}
+
+.proj-pic {
+	width: 100%;
 }
 
 .card {
@@ -249,8 +259,7 @@ svg:hover {
 
 .proj {
 	height: auto;
-	justify-self: flex-end;
-	padding: 10px 10px 10px 50px;
+	padding: 10px 80px 10px 80px;
 }
 
 .card-btn {
@@ -263,9 +272,8 @@ svg:hover {
 	right: 25%;
 }
 
-.graf {
-	font-family: 'Permanent Marker', cursive;
-	text-shadow: 0 0 5px grey;
+.font {
+	font-family: 'Barlow Condensed', sans-serif;
 }
 
 /* media queries */
@@ -288,6 +296,11 @@ svg:hover {
 		align-self: flex-end;
 		margin: 0;
 		padding: 0 0 20px 170px;
+	}
+
+	h3.sizing {
+		font-size: 10rem;
+		padding: 10000000px;
 	}
 
 	.description {
