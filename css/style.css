@@ -315,13 +315,26 @@ svg:hover {
 	padding-bottom: 5px;
 	margin-bottom: 0;
 	color: white;
+	width: 100%;
+}
+
+.wrap {
+	width: 50%;
+	margin-right: 50px;
 }
 
 .proj-desc {
 	height: auto;
 	background-color: rgba(167, 165, 165, 0.068);
-	margin: 10px 0 0 0;
 	padding: 25px 25px 25px 25px;
+	margin-right: 50px;
+	width: 100%;
+	text-align: center;
+
+}
+
+.padder-x {
+	padding-bottom: 75px;
 }
 
 p.proj-description {
@@ -331,10 +344,9 @@ p.proj-description {
 
 .projects-inner {
 	height: 100%;
-	width: 70%;
-	border: 5px solid rgb(112, 182, 223);
-
+	text-align: center;
 	display: inline-block;
+	padding-top: 50px;
 }
 
 .proj-header {
@@ -342,16 +354,21 @@ p.proj-description {
 	font-size: 3rem;
 	font-weight: bold;
 	color: white;
-	margin-top: 0;
+	margin: 0 0 50px 0;
 }
 
 .img-box {
-	height: 60%;
+	height: auto%;
+	width: 100%;
 	border: 5px solid rgb(112, 182, 223);
 }
 
 .proj-pic {
-	width: 100%;
+	width: 100%
+}
+
+.proj-pic:hover {
+	opacity: 0.9
 }
 
 .card {
@@ -363,9 +380,11 @@ p.proj-description {
 }
 
 .proj {
+	display: flex;
 	height: auto;
 	padding: 10px 80px 10px 80px;
 	text-align: center;
+	padding-bottom: 50px;
 }
 
 .card-btn {
@@ -401,7 +420,7 @@ p.proj-description {
 		padding: 0;
 	}
 	.proj {
-		padding: 0 15px;
+		padding: 0 15px 80px 15px;
 	}
 	.projects-inner {
 		width: 100%;

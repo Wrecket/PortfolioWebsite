@@ -19,7 +19,7 @@ setTimeout(() => {
         name3.classList.remove("name-on")
         name3.classList.remove("animate__fadeOut")
         name3.classList.add("lock3", "animate__fadeIn")
-        }, 3000)
+        }, 2000)
 
     setTimeout(() => {
         name4.classList.add("name-on");
@@ -30,7 +30,7 @@ setTimeout(() => {
             name4.classList.remove("name-on")
             name4.classList.remove("animate__fadeOut")
             name4.classList.add("lock4", "animate__fadeIn")
-            }, 3000)
+            }, 2000)
         }, 2000)
 
     setTimeout(() => {
@@ -42,7 +42,7 @@ setTimeout(() => {
             name.classList.remove("name-on")
             name.classList.remove("animate__fadeOut")
             name.classList.add("lock", "animate__fadeIn")
-            }, 3000)
+            }, 2000)
         }, 3000)
 
         setTimeout(() => {
@@ -54,7 +54,7 @@ setTimeout(() => {
                 name5.classList.remove("name-on")
                 name5.classList.remove("animate__fadeOut")
                 name5.classList.add("lock5", "animate__fadeIn")
-                }, 3000)
+                }, 2000)
             }, 4000)
 
             setTimeout(() => {
@@ -66,7 +66,7 @@ setTimeout(() => {
                     name2.classList.remove("name-on")
                     name2.classList.remove("animate__fadeOut")
                     name2.classList.add("lock2", "animate__fadeIn")
-                    }, 3000)
+                    }, 2000)
                 }, 5000)
     }, 1000)
 
