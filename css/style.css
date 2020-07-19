@@ -420,7 +420,13 @@ p.proj-description {
 		padding: 0;
 	}
 	.proj {
+		display: inline-block;
 		padding: 0 15px 80px 15px;
+	}
+
+	.wrap {
+		width: 100%;
+		margin-right: 0;
 	}
 	.projects-inner {
 		width: 100%;
