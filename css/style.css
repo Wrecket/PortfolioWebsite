@@ -620,7 +620,7 @@ p.proj-description {
 	}
 
 	.lock {
-		left: 22%;
+		left: 62%;
 		top: 55%;
 		font-size: 3rem;
 		text-shadow: none;
@@ -631,7 +631,7 @@ p.proj-description {
 	
 	.lock2 {
 		position: absolute;
-		left: 25%;
+		left: 65%;
 		top: 85%;
 		font-family: 'Barlow Condensed', sans-serif;
 		font-size: 1.5rem;
@@ -643,7 +643,7 @@ p.proj-description {
 	.lock3 {
 		position: absolute;
 		top: 35%;
-		left: 27%;
+		left: 57%;
 		font-family: 'Barlow Condensed', sans-serif;
 		font-size: 2rem;
 		text-shadow: none;
@@ -654,10 +654,10 @@ p.proj-description {
 	
 	.lock4 {
 		top: 60%;
-		left: 18%;
+		left: 55%;
 		position: absolute;
 		font-family: 'Barlow Condensed', sans-serif;
-		font-size: 1rem;
+		font-size: 2rem;
 		text-shadow: none;
 		z-index: 20;
 	}
@@ -665,7 +665,7 @@ p.proj-description {
 	
 	.lock5 {
 		top: 70%;
-		left: 16%;
+		left: 55%;
 		position: absolute;
 		font-family: 'Barlow Condensed', sans-serif;
 		font-size: 2rem;
