@@ -452,12 +452,12 @@ p.proj-description {
 
 /* media queries */
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 
 	.lock {
-		left: 22%;
+		left: 42%;
 		top: 55%;
-		font-size: 3rem;
+		font-size: 5rem;
 		text-shadow: none;
 		font-weight: bold;
 		color: rgb(112, 182, 223);
@@ -466,10 +466,10 @@ p.proj-description {
 	
 	.lock2 {
 		position: absolute;
-		left: 25%;
+		left: 45%;
 		top: 85%;
 		font-family: 'Barlow Condensed', sans-serif;
-		font-size: 1.5rem;
+		font-size: 2rem;
 		text-shadow: none;
 		color: rgb(112, 182, 223);
 		z-index: 20;
@@ -478,9 +478,9 @@ p.proj-description {
 	.lock3 {
 		position: absolute;
 		top: 35%;
-		left: 27%;
+		left: 17%;
 		font-family: 'Barlow Condensed', sans-serif;
-		font-size: 2rem;
+		font-size: 5rem;
 		text-shadow: none;
 		color: rgb(112, 182, 223);
 		z-index: 20;
@@ -489,10 +489,10 @@ p.proj-description {
 	
 	.lock4 {
 		top: 60%;
-		left: 18%;
+		left: 30%;
 		position: absolute;
 		font-family: 'Barlow Condensed', sans-serif;
-		font-size: 1rem;
+		font-size: 3rem;
 		text-shadow: none;
 		z-index: 20;
 	}
@@ -500,10 +500,10 @@ p.proj-description {
 	
 	.lock5 {
 		top: 70%;
-		left: 13%;
+		left: 25%;
 		position: absolute;
 		font-family: 'Barlow Condensed', sans-serif;
-		font-size: 2rem;
+		font-size: 3rem;
 		text-shadow: none;
 		color: white;
 		font-weight: bold;
