@@ -66,6 +66,7 @@ body {
 
 .name-on {
 	color: rgb(112, 182, 223);
+	background-color: yellow;
 	transition: all 5s;
 	text-shadow: 0 0 2px rgb(234, 235, 205);
 }
@@ -81,6 +82,17 @@ body {
 	font-weight: bold;
 }
 
+.lock {
+	position: absolute;
+	left: 22%;
+	top: 21%;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 5.5rem;
+	text-shadow: none;
+	font-weight: bold;
+	color: rgb(112, 182, 223);
+}
+
 .move2 {
 		transition: all 6s;
 		position: absolute;
@@ -92,6 +104,16 @@ body {
 		
 }
 
+.lock2 {
+	position: absolute;
+	left: 8%;
+	top: 40%;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 4rem;
+	text-shadow: none;
+	color: rgb(112, 182, 223);
+}
+
 .move3 {
 	transition: all 6s;
 	position: absolute;
@@ -100,6 +122,17 @@ body {
 	font-family: 'Barlow Condensed', sans-serif;
 	font-size: 4rem;
 	text-shadow: none;
+	
+}
+
+.lock3 {
+	position: absolute;
+	top: 15%;
+	left: 7%;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 4rem;
+	text-shadow: none;
+	color: rgb(112, 182, 223);
 }
 
 .move4 {
@@ -112,6 +145,16 @@ body {
 	text-shadow: none;
 }
 
+.lock4 {
+	top: 25%;
+	left: 18%;
+	position: absolute;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 4rem;
+	text-shadow: none;
+	color: rgb(112, 182, 223);
+}
+
 .move5 {
 	transition: all 6s;
 	top: 29%;
@@ -122,6 +165,18 @@ body {
 	text-shadow: none;
 	color: grey;
 	font-weight: bold;
+}
+
+.lock5 {
+	top: 29%;
+	left: 13%;
+	position: absolute;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 4.2rem;
+	text-shadow: none;
+	color: grey;
+	font-weight: bold;
+	color: grey;
 }
 
 
