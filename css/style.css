@@ -71,17 +71,6 @@ body {
 	text-shadow: 0 0 2px rgb(234, 235, 205);
 }
 
-.move {
-	transition: all 6s;
-	position: absolute;
-	left: 22%;
-	top: 21%;
-	font-family: 'Barlow Condensed', sans-serif;
-	font-size: 5.5rem;
-	text-shadow: none;
-	font-weight: bold;
-}
-
 .lock {
 	position: absolute;
 	left: 22%;
@@ -91,17 +80,6 @@ body {
 	text-shadow: none;
 	font-weight: bold;
 	color: rgb(112, 182, 223);
-}
-
-.move2 {
-		transition: all 6s;
-		position: absolute;
-		left: 8%;
-		top: 40%;
-		font-family: 'Barlow Condensed', sans-serif;
-		font-size: 4rem;
-		text-shadow: none;
-		
 }
 
 .lock2 {
@@ -114,17 +92,6 @@ body {
 	color: rgb(112, 182, 223);
 }
 
-.move3 {
-	transition: all 6s;
-	position: absolute;
-	top: 15%;
-	left: 7%;
-	font-family: 'Barlow Condensed', sans-serif;
-	font-size: 4rem;
-	text-shadow: none;
-	
-}
-
 .lock3 {
 	position: absolute;
 	top: 15%;
@@ -135,15 +102,6 @@ body {
 	color: rgb(112, 182, 223);
 }
 
-.move4 {
-	transition: all 6s;
-	top: 25%;
-	left: 18%;
-	position: absolute;
-	font-family: 'Barlow Condensed', sans-serif;
-	font-size: 4rem;
-	text-shadow: none;
-}
 
 .lock4 {
 	top: 25%;
@@ -155,17 +113,6 @@ body {
 	color: rgb(112, 182, 223);
 }
 
-.move5 {
-	transition: all 6s;
-	top: 29%;
-	left: 13%;
-	position: absolute;
-	font-family: 'Barlow Condensed', sans-serif;
-	font-size: 4.2rem;
-	text-shadow: none;
-	color: grey;
-	font-weight: bold;
-}
 
 .lock5 {
 	top: 29%;
@@ -450,11 +397,14 @@ p.proj-description {
 		display: inline-block;
 		height: auto;
 	}
-
+	.proj-desc {
+		padding: 0;
+	}
 	.proj {
-		align-self: flex-end;
-		margin: 0;
-		padding: 0 0 20px 170px;
+		padding: 0 15px;
+	}
+	.projects-inner {
+		width: 100%;
 	}
 
 	h3.sizing {
@@ -493,7 +443,60 @@ p.proj-description {
 		font-size: 2rem;
 		padding-bottom: 10px;
 	}
-	body {
-		padding-top: 90px;
+	
+	.lock {
+		left: 22%;
+		top: 55%;
+		font-size: 3rem;
+		text-shadow: none;
+		font-weight: bold;
+		color: rgb(112, 182, 223);
+		z-index: 20;
+	}
+	
+	.lock2 {
+		position: absolute;
+		left: 25%;
+		top: 85%;
+		font-family: 'Barlow Condensed', sans-serif;
+		font-size: 1.5rem;
+		text-shadow: none;
+		color: rgb(112, 182, 223);
+		z-index: 20;
+	}
+	
+	.lock3 {
+		position: absolute;
+		top: 35%;
+		left: 27%;
+		font-family: 'Barlow Condensed', sans-serif;
+		font-size: 2rem;
+		text-shadow: none;
+		color: rgb(112, 182, 223);
+		z-index: 20;
+	}
+	
+	
+	.lock4 {
+		top: 60%;
+		left: 18%;
+		position: absolute;
+		font-family: 'Barlow Condensed', sans-serif;
+		font-size: 1rem;
+		text-shadow: none;
+		z-index: 20;
+	}
+	
+	
+	.lock5 {
+		top: 70%;
+		left: 13%;
+		position: absolute;
+		font-family: 'Barlow Condensed', sans-serif;
+		font-size: 2rem;
+		text-shadow: none;
+		color: white;
+		font-weight: bold;
+		z-index: 20;
 	}
 }
