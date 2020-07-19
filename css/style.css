@@ -41,6 +41,30 @@ body {
 	text-align: center;
 }
 
+.svg-top {
+	position: absolute;
+	left: 35%;
+	bottom: 51%;
+	z-index: 20;
+	height: 30px;
+}
+
+.svg-top3 {
+	position: absolute;
+	left: 37%;
+	bottom: 51%;
+	z-index: 20;
+	height: 30px;
+}
+
+.svg-top4 {
+	position: absolute;
+	left: 39%;
+	bottom: 51%;
+	z-index: 20;
+	height: 30px;
+}
+
 .main-title {
 	font-size: 9.1rem;
 	font-weight: bold;
@@ -63,6 +87,8 @@ body {
 	overflow: hide;
 	transition: all 5s;
 }
+
+
 
 .name-on {
 	color: rgb(112, 182, 223);
@@ -380,9 +406,10 @@ p.proj-description {
 }
 
 .img-box {
-	height: auto%;
+	height: auto;
 	width: 100%;
 	border: 5px solid rgb(112, 182, 223);
+
 }
 
 .proj-pic {
@@ -481,6 +508,18 @@ p.proj-description {
 		color: white;
 		font-weight: bold;
 		z-index: 20;
+	}
+
+	.svg-top {
+		display: none;
+	}
+	
+	.svg-top3 {
+		display: none;
+	}
+	
+	.svg-top4 {
+		display: none;
 	}
 
 	.skills {

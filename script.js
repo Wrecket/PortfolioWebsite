@@ -8,6 +8,10 @@ const name4 = document.querySelector(".hover-ef4");
 const name5 = document.querySelector(".hover-ef5");
 const container = document.querySelector(".main-container");
 const body = document.querySelector("body");
+const svg1 = document.querySelector(".svg-top");
+const svg3 = document.querySelector(".svg-top3");
+const svg4 = document.querySelector(".svg-top4");
+
 
 setTimeout(() => {
 
@@ -68,6 +72,22 @@ setTimeout(() => {
                     name2.classList.add("lock2", "animate__fadeIn")
                     }, 2000)
                 }, 5000)
+
+                setTimeout(() => {
+                        svg1.classList.remove("hidden")
+                        svg1.classList.add("animate__fadeIn")
+                        
+                    }, 8000)
+                setTimeout(() => {
+                        svg3.classList.remove("hidden")
+                        svg3.classList.add("animate__fadeIn")
+                        
+                    }, 9000)
+                setTimeout(() => {
+                        svg4.classList.remove("hidden")
+                        svg4.classList.add("animate__fadeIn")
+                        
+                    }, 10000)
     }, 1000)
 
 
