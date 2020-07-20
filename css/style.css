@@ -497,6 +497,11 @@ p.proj-desc-desktop {
 	overflow: hidden;
 }
 
+.rounder {
+	border-radius: 25px;
+	overflow: hidden;
+}
+
 .proj-pic {
 	width: 100%
 }
