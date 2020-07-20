@@ -301,7 +301,7 @@ a:hover {
 	padding-bottom: 50px;
 	margin-left: -100px;
 	margin-right: 100px;
-	margin-bottom: 100px;
+	margin-bottom: 30px;
 }
 
 .skill-title {
@@ -588,6 +588,19 @@ p.proj-desc-desktop {
 	justify-content: flex-end;
 }
 
+.connect-icon {
+	height: 50px;
+	margin: 0 25px;
+}
+
+h2.white {
+	padding-bottom: 0
+}
+
+.drop {
+	font-weight: bold;
+	padding-bottom: 25px;
+}
 /* media queries */
 
 @media (max-width: 800px) {
@@ -743,7 +756,8 @@ p.proj-desc-desktop {
 	}
 	.projects-inner {
 		width: 100%;
-		display: inline-block
+		display: inline-block;
+		margin-bottom: 50px;
 	}
 
 	.proj-desc-mobile {
