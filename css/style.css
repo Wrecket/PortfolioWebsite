@@ -207,7 +207,7 @@ body {
 }
 
 .padder {
-	height: 650px;
+	height: 350px;
 }
 
 .decoration {
@@ -293,15 +293,15 @@ a:hover {
 }
 
 .skills {
-	width: 30%;
+	width: 25%;
 	height: auto;
 	background-color: white;
 	display: inline-block;
 	border: rgb(112, 182, 223) solid 3px;
-	padding-bottom: 50px;
-	margin-left: -100px;
+	margin-left: -330px;
 	margin-right: 100px;
 	margin-bottom: 30px;
+	margin-top: -170px;
 }
 
 .skill-title {
@@ -309,7 +309,7 @@ a:hover {
 	font-size: 3em;
 	padding: 10px 0 15px 0;
 	color: white;
-	margin-bottom: 30px;
+	margin-bottom: 100px;
 }
 
 h2 span {
@@ -333,7 +333,7 @@ svg:hover {
 }
 
 .more {
-	padding-top: 70px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 	font-weight: bold;
 }
@@ -371,7 +371,7 @@ svg:hover {
 	background-color: rgba(167, 165, 165, 0.068);
 	padding: 0px;
 	margin-right: 50px;
-	width: 30%;
+	width: 20%;
 	text-align: center;
 	position: relative;
 
@@ -402,18 +402,22 @@ svg:hover {
 
 .proj-desc-svg3 {
 	/* position: absolute; */
-	left: 45%;
-	bottom: 5%;
+
 	height: 15px;
 	margin: 0 -50px;
 }
 
 .proj-desc-svg4 {
 	/* position: absolute; */
-	left: 65%;
-	bottom: 5%;
+
 	height: 15px;
 	margin: 0 -30px;
+}
+.proj-desc-svg5 {
+	/* position: absolute; */
+
+	height: 15px;
+	margin: 0 -50px;
 }
 
 .proj-desc-mobile {
@@ -432,7 +436,7 @@ svg:hover {
 	background-color: rgba(167, 165, 165, 0.068);
 	padding: 0 0 25px 0;
 	margin-right: 50px;
-	width: 30%;
+	width: 20%;
 	text-align: center;
 	position: relative;
 }
@@ -483,7 +487,7 @@ p.proj-desc-desktop {
 	font-size: 3rem;
 	font-weight: bold;
 	color:rgb(112, 182, 223);
-	margin: -110px 0 50px 0;
+	margin: -110px 300px 50px 0;
 	justify-self: center;
 }
 
@@ -536,6 +540,7 @@ p.proj-desc-desktop {
 	height: auto;
 	justify-content: center;
 	margin-right: -50px;
+	margin-left: -350px;
 	text-align: center;
 	padding-bottom: 50px;
 }
@@ -642,6 +647,11 @@ h2.white {
 	}
 	
 	.proj-desc-svg4 {
+		height: 30px;
+		margin: 0 -30px;
+	}
+
+	.proj-desc-svg5 {
 		height: 30px;
 		margin: 0 -30px;
 	}
