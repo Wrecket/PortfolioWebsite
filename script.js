@@ -130,12 +130,12 @@ more.addEventListener("click", function(){
         hidden.classList.remove("hidden");
     }
     
-    if(hidden.classList.contains("animate__bounceOutRight")){
-        hidden.classList.remove("animate__bounceOutRight");
-        hidden.classList.add("animate__bounceInLeft");
-      } else if(hidden.classList.contains("animate__bounceInLeft")) {
-        hidden.classList.remove("animate__bounceInLeft", );
-        hidden.classList.add("animate__bounceOutRight");   
+    if(hidden.classList.contains("animate__fadeOut")){
+        hidden.classList.remove("animate__fadeOut");
+        hidden.classList.add("animate__fadeIn");
+      } else if(hidden.classList.contains("animate__fadeIn")) {
+        hidden.classList.remove("animate__fadeIn", );
+        hidden.classList.add("animate__fadeOut");   
     }
 }) 
 
