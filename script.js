@@ -154,3 +154,6 @@ more.addEventListener("click", function(){
         hidden.classList.add("animate__bounceOutRight");   
     }
 }) 
+
+
+

@@ -3,6 +3,10 @@ body {
 	position: relative;
 }
 
+/*  */
+
+/*  */
+
 .nav-title {
 	margin-bottom: 0;
 	padding-bottom: 0;
@@ -285,7 +289,7 @@ a:hover {
 	height: auto;
 	background-color: white;
 	display: inline-block;
-	border: rgb(112, 182, 223) solid 5px;
+	border: rgb(112, 182, 223) solid 3px;
 	padding-bottom: 50px;
 }
 
@@ -345,24 +349,67 @@ svg:hover {
 }
 
 .wrap {
-	width: 50%;
+	width: 70%;
 	margin-right: 50px;
 }
 
 .proj-desc {
 	height: auto;
 	background-color: rgba(167, 165, 165, 0.068);
-	padding: 25px 25px 25px 25px;
+	padding: 0px;
 	margin-right: 50px;
-	width: 100%;
+	width: 30%;
 	text-align: center;
+	position: relative;
 
+}
+
+.svg-wrap {
+	display: flex;
+	text-align: center;
+	align-items: flex-end;
+	justify-self: flex-end;
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+}
+
+.proj-desc-svg {
+	/* position: absolute; */
+	left: 5%;
+	bottom: 5%;
+	height: 50px;
+	margin: 0 -20px;
+}
+
+.proj-desc-svg2 {
+	/* position: absolute; */
+	left: 25%;
+	bottom: 5%;
+	height: 50px;
+	margin: 0 -20px;
+}
+
+.proj-desc-svg3 {
+	/* position: absolute; */
+	left: 45%;
+	bottom: 5%;
+	height: 50px;
+	margin: 0 -20px;
+}
+
+.proj-desc-svg4 {
+	/* position: absolute; */
+	left: 65%;
+	bottom: 5%;
+	height: 50px;
+	margin: 0 -20px;
 }
 
 .proj-desc-mobile {
 	height: auto;
 	background-color: rgba(167, 165, 165, 0.068);
-	padding: 25px 25px 25px 25px;
+	padding: 0 0 25px 0;
 	margin-right: 50px;
 	width: 100%;
 	text-align: center;
@@ -373,47 +420,89 @@ svg:hover {
 .proj-desc-desktop {
 	height: auto;
 	background-color: rgba(167, 165, 165, 0.068);
-	padding: 25px 25px 25px 25px;
+	padding: 0 0 25px 0;
 	margin-right: 50px;
-	width: 100%;
+	width: 30%;
 	text-align: center;
-	display: inline-block;
-
+	position: relative;
 }
 
 .padder-x {
-	padding-bottom: 75px;
+	padding-bottom: 50px;
 }
 
-p.proj-description {
+p.proj-description,
+p.proj-desc-desktop {
 	margin-bottom: 0;
 	color: white;
+	font-size: 1rem;
+	padding: 0 20px;
+
+}
+
+.white-wrap {
+	background-color: white;
+	height: auto;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.dark-wrap {
+	height: 80%;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
 }
 
 .projects-inner {
 	height: 100%;
 	text-align: center;
-	display: inline-block;
+	display: flex;
 	padding-top: 50px;
+	justify-content: center;
+	align-items: center;
 }
 
 .proj-header {
 	padding: 5px 0 5px 0;
 	font-size: 3rem;
 	font-weight: bold;
-	color: white;
-	margin: 0 0 50px 0;
+	color:rgb(112, 182, 223);
+	margin: -110px 0 50px 0;
+	justify-self: center;
 }
 
 .img-box {
 	height: auto;
 	width: 100%;
-	border: 5px solid rgb(112, 182, 223);
+	border: 2px solid ;
+	transition: all 3s;
+	border: rgb(112, 182, 223) solid 2px;
+	
 
+}
+
+.bg {
+	width: 100%;
+}
+
+.rounder {
+	border-radius: 25px;
+	overflow: hidden;
 }
 
 .proj-pic {
 	width: 100%
+}
+
+.img-box:hover {
+	width: 105%;
 }
 
 .proj-pic:hover {
@@ -431,7 +520,7 @@ p.proj-description {
 .proj {
 	display: flex;
 	height: auto;
-	padding: 10px 80px 10px 80px;
+	
 	text-align: center;
 	padding-bottom: 50px;
 }
@@ -453,6 +542,33 @@ p.proj-description {
 /* media queries */
 
 @media (max-width: 800px) {
+
+	.svg-wrap {
+		text-align: center;
+		position: static;
+		margin-top: 50px;
+		padding: 0 0 25px 25%;
+	}
+
+	.proj-desc-svg {
+		height: 30px;
+		margin: 0 -30px;
+	}
+	
+	.proj-desc-svg2 {
+		height: 30px;
+		margin: 0 -30px;
+	}
+	
+	.proj-desc-svg3 {
+		height: 30px;
+		margin: 0 -30px;
+	}
+	
+	.proj-desc-svg4 {
+		height: 30px;
+		margin: 0 -30px;
+	}
 
 	.lock {
 		left: 42%;
@@ -522,10 +638,6 @@ p.proj-description {
 		display: none;
 	}
 
-	.skills {
-		width: 100%;
-	}
-
 	.row {
 		flex-wrap: nowrap;
 	}
@@ -546,6 +658,11 @@ p.proj-description {
 	.proj-desc {
 
 		margin-top: 30px;
+		width: 100%;
+	}
+
+	.project-name {
+		margin-bottom: 50px;
 	}
 
 	.padder-x {
