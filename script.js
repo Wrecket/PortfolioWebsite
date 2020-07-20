@@ -72,22 +72,6 @@ setTimeout(() => {
                     name2.classList.add("lock2", "animate__fadeIn")
                     }, 2000)
                 }, 5000)
-
-                setTimeout(() => {
-                        svg1.classList.remove("hidden")
-                        svg1.classList.add("animate__fadeIn")
-                        
-                    }, 8000)
-                setTimeout(() => {
-                        svg3.classList.remove("hidden")
-                        svg3.classList.add("animate__fadeIn")
-                        
-                    }, 9000)
-                setTimeout(() => {
-                        svg4.classList.remove("hidden")
-                        svg4.classList.add("animate__fadeIn")
-                        
-                    }, 10000)
     }, 1000)
 
 
