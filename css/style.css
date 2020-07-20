@@ -45,6 +45,14 @@ body {
 	text-align: center;
 }
 
+.containerxx {
+	text-align: center;
+	padding: 50px 0 50px 0;
+	margin-right: 0;
+	margin-left: 0;
+	text-align: center;
+}
+
 .svg-top {
 	position: absolute;
 	left: 35%;
@@ -217,7 +225,7 @@ body {
 }
 
 .greeting {
-	height: 800px;
+	height: auto;
 	width: 100%;
 	text-align: center;
 }
@@ -285,12 +293,15 @@ a:hover {
 }
 
 .skills {
-	width: 70%;
+	width: 30%;
 	height: auto;
 	background-color: white;
 	display: inline-block;
 	border: rgb(112, 182, 223) solid 3px;
 	padding-bottom: 50px;
+	margin-left: -100px;
+	margin-right: 100px;
+	margin-bottom: 100px;
 }
 
 .skill-title {
@@ -336,6 +347,8 @@ svg:hover {
 }
 
 .projects-wrapper {
+	display: flex;
+	justify-content: center;
 	height: auto;
 	text-align: center;
 }
@@ -349,7 +362,7 @@ svg:hover {
 }
 
 .wrap {
-	width: 70%;
+	width: 30%;
 	margin-right: 50px;
 }
 
@@ -376,34 +389,31 @@ svg:hover {
 
 .proj-desc-svg {
 	/* position: absolute; */
-	left: 5%;
-	bottom: 5%;
-	height: 50px;
-	margin: 0 -20px;
+	height: 15px;
+	margin: 0 -50px;
 }
 
 .proj-desc-svg2 {
 	/* position: absolute; */
-	left: 25%;
-	bottom: 5%;
-	height: 50px;
-	margin: 0 -20px;
+
+	height: 15px;
+	margin: 0 -30px;
 }
 
 .proj-desc-svg3 {
 	/* position: absolute; */
 	left: 45%;
 	bottom: 5%;
-	height: 50px;
-	margin: 0 -20px;
+	height: 15px;
+	margin: 0 -50px;
 }
 
 .proj-desc-svg4 {
 	/* position: absolute; */
 	left: 65%;
 	bottom: 5%;
-	height: 50px;
-	margin: 0 -20px;
+	height: 15px;
+	margin: 0 -30px;
 }
 
 .proj-desc-mobile {
@@ -428,13 +438,12 @@ svg:hover {
 }
 
 .padder-x {
-	padding-bottom: 50px;
+	padding-bottom: 5px;
 }
 
 p.proj-description,
 p.proj-desc-desktop {
 	margin-bottom: 0;
-	color: white;
 	font-size: 1rem;
 	padding: 0 20px;
 
@@ -483,7 +492,7 @@ p.proj-desc-desktop {
 	width: 100%;
 	border: 2px solid ;
 	transition: all 3s;
-	border: rgb(112, 182, 223) solid 2px;
+	border: rgb(218, 218, 218) solid 2px;
 	
 
 }
@@ -525,7 +534,8 @@ p.proj-desc-desktop {
 .proj {
 	display: flex;
 	height: auto;
-	
+	justify-content: center;
+	margin-right: -50px;
 	text-align: center;
 	padding-bottom: 50px;
 }
@@ -544,9 +554,57 @@ p.proj-desc-desktop {
 	font-family: 'Barlow Condensed', sans-serif;
 }
 
+/* About */
+
+.about-header {
+	padding: 10px 0 10px 0;
+	
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+
+.about-list {
+	
+	font-size: 1.5rem;
+	padding: 50px 50px;
+	line-height: 40px;
+	display: inline-block;
+	width: 90%;
+	background-color: rgba(255, 255, 255, 0.26);
+	margin-top: 25px;
+	text-align: left;
+
+}
+
+.about-list-wrap {
+	display: inline-block;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.big-wrap {
+	display: flex;
+	justify-content: flex-end;
+}
+
 /* media queries */
 
 @media (max-width: 800px) {
+
+	.proj-header {
+		margin-left: 70px;
+	}
+
+	.skills {
+		width: 90%;
+		margin: 0;
+		padding: 0;
+	}
+
+	.container {
+		text-align: center;
+	}
 
 	.svg-wrap {
 		text-align: center;
@@ -685,6 +743,7 @@ p.proj-desc-desktop {
 	}
 	.projects-inner {
 		width: 100%;
+		display: inline-block
 	}
 
 	.proj-desc-mobile {
