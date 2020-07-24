@@ -112,9 +112,9 @@ body {
 .lock {
 	position: absolute;
 	left: 22%;
-	top: 21%;
+	top: 17%;
 	font-family: 'Barlow Condensed', sans-serif;
-	font-size: 5.5rem;
+	font-size: 7.5rem;
 	text-shadow: none;
 	font-weight: bold;
 	color: rgb(112, 182, 223);
@@ -122,7 +122,7 @@ body {
 
 .lock2 {
 	position: absolute;
-	left: 8%;
+	left: 15%;
 	top: 40%;
 	font-family: 'Barlow Condensed', sans-serif;
 	font-size: 4rem;
@@ -154,7 +154,7 @@ body {
 
 .lock5 {
 	top: 29%;
-	left: 13%;
+	left: 9%;
 	position: absolute;
 	font-family: 'Barlow Condensed', sans-serif;
 	font-size: 4.2rem;
@@ -320,7 +320,7 @@ svg {
 	transition: all 1s;
 }
 
-svg:hover {
+.skills svg:hover {
 	height: 150px;
 	width: 150px;
 }
@@ -452,6 +452,7 @@ p.proj-desc-desktop {
 	margin-bottom: 0;
 	font-size: 1rem;
 	padding: 0 20px;
+	text-align: left;
 
 }
 
@@ -519,10 +520,6 @@ p.proj-desc-desktop {
 
 .proj-pic {
 	width: 100%
-}
-
-.img-box:hover {
-	width: 105%;
 }
 
 .proj-pic:hover {
@@ -866,10 +863,10 @@ h2.white {
 	
 	.lock5 {
 		top: 70%;
-		left: 55%;
+		left: 53%;
 		position: absolute;
 		font-family: 'Barlow Condensed', sans-serif;
-		font-size: 2rem;
+		font-size: 1.25rem;
 		text-shadow: none;
 		color: white;
 		font-weight: bold;
