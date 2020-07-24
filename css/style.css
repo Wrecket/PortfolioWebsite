@@ -160,6 +160,10 @@ body {
 	color: grey;
 }
 
+.right-align {
+	text-align: right;;
+}
+
 .text-bg {
 	position: absolute;
 	height: 100%;
@@ -442,7 +446,7 @@ svg {
 p.proj-description,
 p.proj-desc-desktop {
 	margin-bottom: 0;
-	font-size: 1rem;
+	font-size: 0.9rem;
 	padding: 0 20px;
 	text-align: left;
 
