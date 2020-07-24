@@ -514,6 +514,17 @@ p.proj-desc-desktop {
 
 .proj-pic {
 	width: 100%;
+	position: relative;
+	transform: translateZ(10px);
+	transform-style: preserve-3d;
+}
+
+.mobile-pic {
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+	width: 15%;
+	transform: translateZ(10px);
 }
 
 .proj-pic:hover {
@@ -742,6 +753,7 @@ h2.white {
 	.wrap {
 		width: 100%;
 		margin-right: 0;
+		transform-style: preserve-3d;
 	}
 	.projects-inner {
 		width: 100%;
