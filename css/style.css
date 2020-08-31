@@ -643,6 +643,11 @@ h2.white {
 		padding: 0 0 25px 25%;
 	}
 
+	.svg-responsive {
+		height: 100px;
+		width: 100px;
+	}
+
 	.proj-desc-svg {
 		height: 30px;
 		margin: 0 -30px;
