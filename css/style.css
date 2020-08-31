@@ -820,6 +820,23 @@ h2.white {
 }
 
 @media (max-width: 550px) {
+	.skills {
+		margin-top: 10%;
+		margin-left: 3%;
+	}
+
+	.skill-icon {
+		height: 80px;
+	}
+	
+	.desktop {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
+	}
+
 	.main-title {
 		font-size: 2rem;
 		padding-bottom: 10px;
